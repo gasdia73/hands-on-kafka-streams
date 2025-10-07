@@ -4,7 +4,7 @@ name := "streams-app"
 version := "0.1"
 
 lazy val commonSettings = Seq(
-  scalaVersion := "2.13.6",
+  scalaVersion := "2.13.17",
   resolvers += "Confluent Maven Repository" at "https://packages.confluent.io/maven/"
 )
 
